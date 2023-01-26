@@ -95,3 +95,17 @@ a {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.container {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+.container::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+modal{
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+}

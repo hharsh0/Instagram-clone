@@ -1,24 +1,26 @@
-import React from 'react'
+import React from "react";
+
 
 function Status() {
   return (
-    <div className="border border-[#262626] flex shrink-0 p-4 ml-64 w-80 h-10 text-white justify-between overflow-x-auto rounded-xl">
-      <div className="h-6 w-6 bg-red-400 rounded-full"></div>
-      <div className="h-6 w-6 bg-red-400 rounded-full"></div>
-      <div className="h-6 w-6 bg-red-400 rounded-full"></div>
-      <div className="h-6 w-6 bg-red-400 rounded-full"></div>
-      <div className="h-6 w-6 bg-red-400 rounded-full"></div>
-      <div className="h-6 w-6 bg-red-400 rounded-full"></div>
-      <div className="h-6 w-6 bg-red-400 rounded-full"></div>
-      <div className="h-6 w-6 bg-red-400 rounded-full"></div>
-      <div className="h-6 w-6 bg-red-400 rounded-full"></div>
-      <div className="h-6 w-6 bg-red-400 rounded-full"></div>
-      <div className="h-6 w-6 bg-red-400 rounded-full"></div>
-      <div className="h-6 w-6 bg-red-400 rounded-full"></div>
-      <div className="h-6 w-6 bg-red-400 rounded-full"></div>
-      <div className="h-6 w-6 bg-red-400 rounded-full"></div>
+    <div className="w-96 text-white ml-96 overflow-x-auto border border-[#262626] rounded-md container p-1">
+      <div className="overflow-x-auto flex container py-4 gap-x-4">
+        <div className="w-16 h-16 bg-red-500 rounded-full shrink-0"></div>
+        <div className="w-16 h-16 bg-red-500 rounded-full shrink-0"></div>
+        <div className="w-16 h-16 bg-red-500 rounded-full shrink-0"></div>
+        <div className="w-16 h-16 bg-red-500 rounded-full shrink-0"></div>
+        <div className="w-16 h-16 bg-red-500 rounded-full shrink-0"></div>
+        <div className="w-16 h-16 bg-red-500 rounded-full shrink-0"></div>
+        <div className="w-16 h-16 bg-red-500 rounded-full shrink-0"></div>
+        <div className="w-16 h-16 bg-red-500 rounded-full shrink-0"></div>
+        <div className="w-16 h-16 bg-red-500 rounded-full shrink-0"></div>
+        <div className="w-16 h-16 bg-red-500 rounded-full shrink-0"></div>
+        <div className="w-16 h-16 bg-red-500 rounded-full shrink-0"></div>
+        <div className="w-16 h-16 bg-red-500 rounded-full shrink-0"></div>
+        <div className="w-16 h-16 bg-red-500 rounded-full shrink-0"></div>
+      </div>
     </div>
   );
 }
 
-export default Status
+export default Status;
